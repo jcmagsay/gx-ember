@@ -1,0 +1,8 @@
+<ul>
+  {{#each navItems as |navItem|}}
+    <li>
+      <a href="{{navItem}}">{{navItem}}</a>
+    </li>
+  {{/each}}
+</ul>
+{{yield}}
