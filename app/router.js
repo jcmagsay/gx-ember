@@ -7,6 +7,13 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('expeditions', function() {
+    this.route('peru');
+    this.route('upcoming');
+  });
+  this.route('about');
+  this.route('donate');
+  this.route('account');
 });
 
 export default Router;
