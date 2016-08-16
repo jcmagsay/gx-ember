@@ -1,3 +1,44 @@
 body {
   font-family: Roboto;
+  margin: 0;
 }
+    /* TODO: figure out how to make this more specific with class or id (div) */
+    #container div:first-of-type {
+      display: flex;
+      flex-direction: row;
+      height: 100vh;
+    }
+    nav {
+      background-color: rgba(0,0,0,.1);
+      border-right: 1px solid rgba(0,0,0,.2);
+      width: 150px;
+    }
+      nav ul {
+        -webkit-margin-after: 0;
+        -webkit-margin-before: 0;
+        -webkit-padding-start: 0;
+      }
+        nav li {
+          list-style: none;
+        }
+          nav li:first-of-type {
+            background-color: rgba(140, 0, 0, 1);
+          }
+            nav li:first-of-type a {
+              color: rgba(255,255,255,.87);
+            }
+          nav li:not(:first-of-type) {
+            border-top: 1px solid rgba(0,0,0,.2);
+          }
+            nav li a {
+              color: rgba(0,0,0,.87);
+              cursor: pointer;
+              display: block;
+              padding: 24px;
+              text-decoration: none;
+            }
+    main {
+      background-color: rgba(200,200,200,.1);
+      width: calc(100% - 150px);
+      padding: 8px;
+    }

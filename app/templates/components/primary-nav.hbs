@@ -1,6 +1,6 @@
 <ul>
   {{#each navItems as |navItem|}}
-    <li>
+    <li class="{{navItem}}">
       {{#link-to navItem}}{{navItem}}{{/link-to}}
     </li>
   {{/each}}
