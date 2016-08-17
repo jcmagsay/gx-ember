@@ -33,6 +33,6 @@ export default Ember.Route.extend({
           'scrollTo': '#story'
         }
       ]
-    }
+    };
   }
 });

@@ -15,31 +15,20 @@ body {
       position: fixed;
       width: 150px;
     }
-      nav ul {
-        margin: 0;
-        -webkit-margin-after: 0;
-        -webkit-margin-before: 0;
-        -webkit-padding-start: 0;
+      nav a {
+        color: rgba(0,0,0,.87);
+        cursor: pointer;
+        display: block;
+        padding: 24px;
+        text-decoration: none;
       }
-        nav li {
-          list-style: none;
+        nav a:first-of-type {
+          background-color: rgba(140, 0, 0, 1);
+          color: rgba(255,255,255,.87);
         }
-          nav li:first-of-type {
-            background-color: rgba(140, 0, 0, 1);
-          }
-            nav li:first-of-type a {
-              color: rgba(255,255,255,.87);
-            }
-          nav li:not(:first-of-type) {
-            border-top: 1px solid rgba(0,0,0,.2);
-          }
-            nav li a {
-              color: rgba(0,0,0,.87);
-              cursor: pointer;
-              display: block;
-              padding: 24px;
-              text-decoration: none;
-            }
+        nav a:not(:first-of-type) {
+          border-top: 1px solid rgba(0,0,0,.2);
+        }
     main {
       background-color: rgba(200,200,200,.1);
       left: 150px;
