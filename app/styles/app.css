@@ -62,6 +62,10 @@ body {
         main .hero-section footer {
           height: 100px;
         }
-          main .hero-section footer button a {
-            color: rgba(255,255,255,1);
-          }
+          main .hero-section footer button { padding: 0; }
+            main .hero-section footer button a {
+              color: rgba(255,255,255,1);
+              display: inline-block;
+              padding: 24px;
+              min-width: 150px;
+            }
