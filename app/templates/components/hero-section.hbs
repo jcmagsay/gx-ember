@@ -1,8 +1,8 @@
-<section class="content-section" id="{{id}}">
+<section class="hero-section" id="{{id}}">
   <header>{{title}}</header>
-  <section>{{body}}</section>
+  <section class="hero-content">{{body}}</section>
   <footer>
-    {{#link-to}}{{anchorTxt}}{{/link-to}}
+    <button>{{#scroll-to href=scrollTo}}{{anchorTxt}}{{/scroll-to}}</button>
   </footer>
 </section>
 

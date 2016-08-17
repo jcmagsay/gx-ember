@@ -1,9 +1,9 @@
-<h1>Global Xplorer</h1>
 {{#each model.heroes as |hero|}}
 {{#hero-section
   id=hero.id
   title=hero.title
   body=hero.body
-  anchorTxt=hero.anchorTxt}}{{/hero-section}}
+  anchorTxt=hero.anchorTxt
+  scrollTo=hero.scrollTo}}{{/hero-section}}
 {{/each}}
 {{outlet}}

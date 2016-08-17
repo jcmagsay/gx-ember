@@ -8,25 +8,29 @@ export default Ember.Route.extend({
           'id': 'story',
           'title': 'HUMAN STORY',
           'body': '[CONTENT HERE]',
-          'anchorTxt': 'NEXT'
+          'anchorTxt': 'NEXT',
+          'scrollTo': '#tools'
         },
         {
           'id': 'tools',
           'title': 'TOOLS AND RESOURCES',
           'body': '[CONTENT HERE]',
-          'anchorTxt': 'NEXT'
+          'anchorTxt': 'NEXT',
+          'scrollTo': '#history'
         },
         {
           'id': 'history',
           'title': 'RICH HISTORY',
           'body': '[CONTENT HERE]',
-          'anchorTxt': 'NEXT'
+          'anchorTxt': 'NEXT',
+          'scrollTo': '#goals'
         },
         {
           'id': 'goals',
           'title': 'BIG GOAL',
           'body': '[CONTENT HERE]',
-          'anchorTxt': 'NEXT'
+          'anchorTxt': 'BACK TO TOP',
+          'scrollTo': '#story'
         }
       ]
     }

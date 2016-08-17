@@ -16,6 +16,7 @@ body {
       width: 150px;
     }
       nav ul {
+        margin: 0;
         -webkit-margin-after: 0;
         -webkit-margin-before: 0;
         -webkit-padding-start: 0;
@@ -45,6 +46,22 @@ body {
       position: absolute;
       width: calc(100% - 150px);
     }
-      main .content-section {
-        height: 90vh;
+      main .hero-section {
+        height: 100vh;
+        width: 100%;
+        text-align: center;
       }
+        main .hero-section header {
+          font-size: 48px;
+          height: 100px;
+        }
+        main .hero-section .hero-content {
+          font-size: 24px;
+          height: calc(100% - 200px);
+        }
+        main .hero-section footer {
+          height: 100px;
+        }
+          main .hero-section footer button a {
+            color: rgba(255,255,255,1);
+          }
