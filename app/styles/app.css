@@ -11,6 +11,8 @@ body {
     nav {
       background-color: rgba(0,0,0,.1);
       border-right: 1px solid rgba(0,0,0,.2);
+      height: 100vh;
+      position: fixed;
       width: 150px;
     }
       nav ul {
@@ -39,6 +41,10 @@ body {
             }
     main {
       background-color: rgba(200,200,200,.1);
+      left: 150px;
+      position: absolute;
       width: calc(100% - 150px);
-      padding: 8px;
     }
+      main .content-section {
+        height: 90vh;
+      }
